@@ -1,0 +1,113 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: verdana;
+}
+.main{
+    width:45%;
+    border:2px solid gray;
+    margin:auto;
+    margin-top:200px;
+    min-height: 300px;
+}
+.alert{
+    width:80%;
+    margin:auto;
+    margin-top:20px;
+    text-align: center;
+    padding:5px;
+    border-radius: 10px;
+    color:black;
+    visibility: hidden;
+    min-height: 20px;
+}
+h1{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    margin-top:10px;
+    color:orange;
+}
+.form-controller{
+    width:100%;
+    display: flex;
+    margin-top:20px;
+    justify-content: space-around;
+}
+.grocery{
+    width:70%;
+    padding:6px;
+    border-radius: 5px;
+}
+.grocery:focus{
+    outline:none;
+    border:2px solid blue
+}
+.submit{
+    width:20%;
+    padding:6px;
+    border:2px solid gray;
+    border-radius: 10px;
+    transition:0.5s ease;
+    color:blue;
+    background-color:white;
+}
+.submit:hover{
+    background-color: blue;
+    color:white;
+
+}
+.list{
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(147, 251, 246);
+    padding:9px;
+    margin-top:10px;
+    border-radius: 5px;
+}
+.del{
+    color:red;
+    background: transparent;
+}
+.edit{
+    color:blue;
+    background: transparent;
+}
+.clearall{
+    width:20%;
+    padding:6px;
+    border:2px solid gray;
+    color:blue;
+    background-color: white;
+    margin-top:30px;
+    margin-left:40%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.5s ease;
+
+}
+.clearall:hover{
+    color:white;
+    background-color: blue;
+}
+.danger{
+    color:red
+}
+.success{
+    color:green
+
+}
+@media screen and (max-width:800px){
+    .main{
+        width:80%;
+    }
+}
